@@ -1,227 +1,223 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html> 
 <head>
 	<meta charset="UTF-8"/> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/tmpl.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<link rel="stylesheet" href="css/reset.css"> 
 	<link rel="stylesheet" href="css/style.css"> 
-	<link rel="shortcut icon" href="img/iconka.png" type="image/png">
-	<title>PINGBULL</title>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<title>URLAUBSGLÜCK</title>
 </head>
 <body>
 
-<div class="background_layer">
-	<div class="bg__head height--head"></div>
-	<div class="bg__gradient height--gradient"></div>
-	<div class="bg__main height--main"></div>
-	<div class="bg__catalog height--catalog"></div>
-	<div class="bg__prefooter height--prefooter"></div>
-	<div class="bg__footer height--footer"></div>
-	<div class="bg__rgba height--rgba"></div>
-</div>
-
-
-<div class="wrapper">
-	<header>
-		<div class="logo"><img src="img/logo.png" alt="img"></div>
-		<nav>
-			<ul class="menu">
-				<li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">ABOUT</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">PRODUCTS</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">LOREM IPSUM</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">DOLOR SIT AMET</a></li>
-			</ul>
-		</nav>				
-		<div class="slider">
-			<div class="arrow_left"><img src="img/arrow_left.png" alt=""></div>
-			<div class="arrow_right"><img src="img/arrow_right.png" alt=""></div>
-			<div class="slider__text">
-				<p class="slider__text_title">Lorem Ipsum Dolor</p>
-				<p class="slider__text_subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
-				<p class="slider__text_subtext">Semper sollicitudin gravida eget, vestibulum sit amet sapien. 
-				Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit 
-				est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet 
-				eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a 
-				tempus lectus lobortis.</p>
-			</div>
-			<div class="slider__image">
-				<img src="img/phone.png" alt="">
-			</div>			
+	<div class="header">
+		<div class="wrapper">
+		<div class="header__registr">
+			<a href="#" class="header__link">Log in</a>
+			<a href="#" class="header__link sign-up">Sign up</a>
+		</div>		
+		
+		<div class="header__logo">
+		<a href="#" class="header__logo__link">
+			URLAUBSGLÜCK
+		</a>
+        </div>
+		<div class="header__content">
+			<h1 class="header__title">SHARE YOUR HOLIDAY DREAMS</h1>
+			<p class="header__text">And find the perfect partner to fullfill it</p>
+			<button id="button__find" name="find" value="fff">Find your holiday partner</button>
+        </div>
 		</div>
-		<div class="slider__pages1">
-           <img src="img/navi1.png" alt="navi1">
-		</div>
-		
-		
-	</header>
-	
-	<div class="article__box">
-		<section class="section__top section--first_top">
-		<div class="section__icon icon--1"></div>
-			<h2 class="section__header section--1">ABOUT OUR COMPANY</h2>
-			<p class="section__text section--1">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-			Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi 
-			convallis</p>
-			<a class="section__link link--1" href="#">READ MORE</a>
-		</section>
-		
-		<section class="section__top">
-		<div class="section__icon icon--2"></div>
-			<h2 class="section__header section--1">ABOUT OUR COMPANY</h2>
-			<p class="section__text section--1">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-			Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi 
-			convallis</p>
-			<a class="section__link" href="#">READ MORE</a>
-		</section>
-		
-		<section class="section__top section--last_top">
-		<div class="section__icon icon--3"></div>
-			<h2 class="section__header section--1">ABOUT OUR COMPANY</h2>
-			<p class="section__text section--1">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-			Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi 
-			convallis</p>
-			<a class="section__link" href="#">READ MORE</a>
-		</section>
 	</div>
 	
-	<main>
-	<img class="main__photo" src="./img/man.png" alt="img"/>
-	    <div class="main__blog">
-			<div class="main__box">
-            <p class="main__header">
-                PINGBULLER <span class="main__header color--pink"> STARTS HERE </span>
-            </p>
-            <div class="main__blog__info">
-                “Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere.
-                Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar
-                urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat
-                consequat dignissim non eu nisl.”
-            </div>
-			</div>
-        </div>
-		<div class="updates__box">
-            <p class="main__header section--2">
-                RECENT UPDATES
-            </p>
-            <ul class="main__updates">
-                <li class="main__updates__item">
-                    <div class="main__icon icon--11"></div>
-                    <p class="main__updates__title">
-                        Nunc turpis neque feugiat eget
-                    </p>
-                    <p class="main__updates__info">
-                        Posted by Admin on March 13 2012 in Recent News
-                    </p>
-                </li>
-                <li class="main__updates__item">
-                    <div class="main__icon icon--12"></div>
-                    <p class="main__updates__title">
-                        Nunc turpis neque feugiat eget
-                    </p>
-                    <p class="main__updates__info">
-                        Posted by Admin on March 13 2012 in Category
-                    </p>
-                </li>
-                <li class="main__updates__item">
-                    <div class="main__icon icon--13"></div>
-                    <p class="main__updates__title">
-                        Nunc turpis neque feugiat eget
-                    </p>
-                    <p class="main__updates__info">
-                        Posted by Admin on March 13 2012 in Blog Updates
-                    </p>
-                </li>
-            </ul>
-            <a class="main__read-more" href="#">
-                READ MORE HERE
-            </a>
-		</div>
-		<div class="slider__pages2">
-           <img src="img/navi2.png" alt="navi2">
-		</div>				
-    </main>
-	
-	<div class="companies">
-            <img class="companies__img__item" src="./img/c1.png" alt="img"/>
-            <img class="companies__img__item rec--2" src="./img/c2.png" alt="img"/>
-            <img class="companies__img__item rec--3" src="./img/c3.png" alt="img"/>
-            <img class="companies__img__item rec--4" src="./img/c4_.png" alt="img"/>
-            <img class="companies__img__item rec--5" src="./img/c5.png" alt="img"/>
-            <img class="companies__img__item rec--6" src="./img/c6.png" alt="img"/>
-    </div>
-	
+		
+	<div class="steps">
+		<div class="wrapper">
+			<h3 class="steps__title">How Urlaubsglück works?</h3>
+			<div class="jcarousel steps__item steps__item-1">
+				<ul class="jcarousel__list">
+					<li class="jcarousel__item">
+					<img class="jcarousel__image" src="img/slider1.jpg" alt="img/slider1.jpg">
+					</li>
+					<li class="jcarousel__item">							
+					<img class="jcarousel__image" src="img/slider11.jpg" alt="img/slider11.jpg">
+					</li>
+					<li class="jcarousel__item">				
+					<img class="jcarousel__image" src="img/slider111.jpg" alt="img/slider111.jpg">
+					</li>
+				</ul>
+	      <div class="arrows">
+	        <span class="arrow arrow__left jcarousel-control-prev"></span>
+	        <span class="arrow arrow__right jcarousel-control-next"></span>
+	      </div>
 
-	<div class="article__box">
-		<section class="section__bottom section--pingbull">
-                <h2 class="section__header section--large color--dark-gray ">PIGBULL<span class="color--light-gray">ER</span> </h2>
-                <p class="section__copyright">
-                    Copyright 2013, PingBull AS
-                </p>
-                <p class="section__text color--dark-gray">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-				Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus 
-				eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris 
-				nec metus ultricies erat consequat dignissim non eu nisl.
-                </p>
-        </section>
-			
-        <section class="section__bottom section--recent">
-                <h2 class="section__header color--dark-gray">RECENT COMMENTS</h2>
-                <p class="section__text color--dark-gray">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-				Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus 
-				eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris 
-				nec metus ultricies erat consequat dignissim non eu nisl.
-                </p>
-        </section>
-            			
-		<section class="section__bottom section--news">
-			    <h2 class="section__header color--dark-gray">NEWS CATEGORIES</h2>
-                <p class="section__text color--dark-gray">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-				Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus 
-				eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris 
-				nec metus ultricies erat consequat dignissim non eu nisl.
-                </p>
-		</section>
+	      <div class="steps__content">
+					<a class="steps__link" href="#"><span class="steps__num">STEP 1</span></a>
+					<h3 class="steps__subtitle">Sed leo enim, condimentum</h3>
+					<p class="steps__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+					</p>
+				</div>
+			</div>
+
+			<div class="jcarousel steps__item steps__item-2">
+				<ul class="jcarousel__list">
+					<li class="jcarousel__item">
+					<img class="jcarousel__image" src="img/slider2.jpg" alt="img/slider2.jpg">
+					</li>
+					<li class="jcarousel__item">							
+					<img class="jcarousel__image" src="img/slider22.jpg" alt="img/slider22.jpg">
+					</li>
+					<li class="jcarousel__item">				
+					<img class="jcarousel__image" src="img/slider222.jpg" alt="img/slider222.jpg">
+					</li>
+				</ul>
+	      <div class="arrows">
+	        <span class="arrow arrow__left jcarousel-control-prev"></span>
+	        <span class="arrow arrow__right jcarousel-control-next"></span>
+	      </div>
+
+	      <div class="steps__content steps-2">
+					<a class="steps__link" href="#"><span class="steps__num">STEP 2</span></a>
+					<h3 class="steps__subtitle">Morbi velit risus</h3>
+					<p class="steps__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+					</p>
+				</div>
+			</div>
+
+			<div class="jcarousel steps__item steps__item-3">
+				<ul class="jcarousel__list">
+					<li class="jcarousel__item">
+					<img class="jcarousel__image" src="img/slider3.jpg" alt="img/slider3.jpg">
+					</li>
+					<li class="jcarousel__item">							
+					<img class="jcarousel__image" src="img/slider33.jpg" alt="img/slider33.jpg">
+					</li>
+					<li class="jcarousel__item">				
+					<img class="jcarousel__image" src="img/slider333.jpg" alt="img/slider333.jpg">
+					</li>
+				</ul>
+	      <div class="arrows">
+	        <span class="arrow arrow__left jcarousel-control-prev"></span>
+	        <span class="arrow arrow__right jcarousel-control-next"></span>
+	      </div>
+
+	      <div class="steps__content">
+					<a class="steps__link" href="#"><span class="steps__num">STEP 3</span></a>
+					<h3 class="steps__subtitle">Sed leo enim, condimentum</h3>
+					<p class="steps__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 		
-		<section class="section__bottom section--news">
-			    <h2 class="section__header color--dark-gray">NEWS CATEGORIES</h2>
-                <p class="section__text color--dark-gray">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-				Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus 
-				eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris 
-				nec metus ultricies erat consequat dignissim non eu nisl.
-                </p>
-		</section>
+	<div class="partners">
+		<div class="wrapper">
+		<h3 class="partners__title">Meet a partner for your best holiday</h3>
+		<ul class="partners__list">
+			<li class="partners__item">
+				<div class="partners__img">
+					<img class="partners__avatar" src="img/img1.png" alt="Bradley Hunter">
+					<div class="partners__icon partners__icon-red"></div>
+				</div>
+			<a class="partners__link" href="#"><p class="partners__name">Bradley Hunter</p></a>
+			<p class="partners__text">Based in Chicago. I love playing tennis and loud music.</p>	
+			</li>	
 		
-		<section class="section__bottom section--last">
-			    <h2 class="section__header color--dark-gray">NEWS CATEGORIES</h2>
-                <p class="section__text color--dark-gray">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. 
-				Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus 
-				eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris 
-				nec metus ultricies erat consequat dignissim non eu nisl.
-                </p>
-		</section>
+			<li class="partners__item">
+				<div class="partners__img">
+					<img class="partners__avatar" src="img/img2.png" alt="Heather Walker">
+					<div class="partners__icon partners__icon-green"></div>
+				</div>
+			<a class="partners__link" href="#"><p class="partners__name">Heather Walker</p></a>
+			<p class="partners__text">I'm a happy person that loves cats and climbing on mountains.</p>
+			</li>	
 		
-    </div>
-    
+			<li class="partners__item">
+				<div class="partners__img">
+					<img class="partners__avatar" src="img/img3.png" alt="Lucas Marsha">
+					<div class="partners__icon partners__icon-yellow"></div>
+				</div>
+			<a class="partners__link" href="#"><p class="partners__name">Lucas Marsha</p></a>
+			<p class="partners__text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+			</li>	
 		
-	<footer>
-		<div class="designed">
-                Designed by <b>Pingbull AS</b>
+			<li class="partners__item">
+				<div class="partners__img">
+					<img class="partners__avatar" src="img/img4.png" alt="Helen Hunter">
+					<div class="partners__icon partners__icon-blue"></div>
+				</div>
+			<a class="partners__link" href="#"><p class="partners__name">Helen Hunter</p></a>
+			<p class="partners__text">Based in Chicago. I love playing tennis and loud music.</p>
+			</li>	
+		</ul>
+		<button id="button__see" name="see" value="#">See other partners</button>
+		</div>
+	</div>
+		
+	<div class="ideas">
+		<div class="wrapper">
+		<h3 class="ideas__title">Discover holiday activity ideas</h3>
+		<div id="ideas__grid"></div>
+		
+	<script type="text/template" id="masonry">
+	<div class="grid">
+		<% for (var i = 0; i < data.length; i++){%>
+	  <div class="grid__table grid__item 
+			<% if ((i === 4) || (i === 5)){ %>
+				grid__width-2
+			<% } %>" style="background-image: url(<%= data[i].webformatURL %>);" >
+			<div class="grid__table">
+				<p class="grid__text table-cell"><%= data[i].tags %></p>
+			</div>
+	  </div>
+	  
+	  <%}%>
+	</div>
+	</script>
+
+	<div class="discover">
+		<h3 class="discover__title">Discover holiday activity ideas</h3>
+		<p class="discover__text">Hi! What are your holiday interests?</p>
+		<form class="search__form">
+			<input class="search__input" type="text" placeholder="Enter your interests">
+			<button id="button__search">Search partners</button>
+		</form>
+	</div>
+	</div>
+	</div>
+	
+	<div class="footer">
+		<div class="wrapper">
+		<div class="footer__logo">
+		<a href="#" class="logo__link">
+			URLAUBSGLÜCK
+		</a>
         </div>
-        	<ul class="menu__footer">
-				<li class="menu__footer__item"><a class="menu__footer__link" href="#">HOME</a></li>
-				<li class="menu__footer__item"><a class="menu__footer__link" href="#">ABOUT</a></li>
-				<li class="menu__footer__item"><a class="menu__footer__link" href="#">BLOG</a></li>
-				<li class="menu__footer__item"><a class="menu__footer__link" href="#">PRODUCTS</a></li>
-				<li class="menu__footer__item"><a class="menu__footer__link" href="#">LOREM IPSUM</a></li>
-				<li class="menu__footer__item"><a class="menu__footer__link" href="#">DOLOR SIT AMET</a></li>
+		<div class="footer__company">
+			<p class="footer__head-nav">Company</p>
+			<ul class="footer__nav">
+				<li class="footer__nav__item"><a class="footer__nav__link" href="#">About</a></li>
+				<li class="footer__nav__item"><a class="footer__nav__link" href="#">Contacts</a></li>
+				<li class="footer__nav__item"><a class="footer__nav__link" href="#">Press</a></li>
+				<li class="footer__nav__item"><a class="footer__nav__link" href="#">Blog</a></li>
 			</ul>
-		        
-	</footer>
-		
-</div>
-			
+		</div>
+			<p class="footer__head-nav nav-partners">Partners</p>
+      
+		<div class="copyright">
+        <p class="copyright__title">DESIGNED BY</p>
+        <a href="#"><div class="copyright__logo"></div></a>
+		</div>
+		</div>
+   	</div>
+
 
 </body>
 </html>
